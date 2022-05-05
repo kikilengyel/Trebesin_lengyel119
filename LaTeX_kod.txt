@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper,notitlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\begin{document}
+
+\title{Databáze/Registr řidičů}
+\author{ "Jindřich Zedník, Tomáš Hrda, Lengyel Krisztina " }
+\date{04. 11. 2021}
+\maketitle
+
+\begin{abstract}
+Tento dokument byl vypracovaný společně se všemi členy týmu a ověřuje základní znalosti \LaTeX{}, databází a projektového řízení.
+
+Tým pracoval samostatně a využíval všechny dostupné materiály na internetu nebo Moodlu. Veškeré licenční a právní náležitosti jsou upraveny v tomto dokumentu.
+
+Těm, který není tento dokument určen nemají žádné právo na využití obsahu tohoto dokumentu.
+
+Veškerá data osob a předmětů jsou smyšlená a nezakládají se na skutečnosti.
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+
+\section{Popis databáze}
+Databáze obsahuje data o osobách a jejich řidičských průkazech. V databáze budou informace rozděleny do skupiny podle nasledujících dat: informace na řidičském průkazu (jméno, příjmení, datum a místo narození, datum vydání, datum platnosti, název vydávajícího úřadu, rodné číslo, skupiny a podskupiny řidičského oprávnění), informace o vozidlu (SPZ, značka vozidla, typ vozidla, VIN kód, platnost STK), dopravní nehody, porušování dopravních předpisů, informace o přezkoušení z odborné způsobilosti. 
+
+Databáze je vytvořena na jazyce MySQL a využívá veškeré technologické vlastnosti této DB.
+\newpage
+\section{Licenční informace a HW požadavky}
+\subsection{Licence}
+\begin{itemize}
+
+\item Google Chrome - 	BSD licence
+
+\item Microsoft Edge - EULA
+
+\item Overleaf - AGPLv3
+
+\item phpMyAdmin - GNU General Public License 2
+
+\end{itemize}
+
+\subsection{Hardware}
+\subsection{Software}
+\begin{itemize}
+
+\item Google Chrome - Vyhledávání informací
+
+\item Microsoft Edge - Vyhledávání informací
+
+\item Overleaf - Vytváření \LaTeX{} dokumentu
+
+\item phpMyAdmin - Tvorba databáze
+
+\end{itemize}
+\newpage
+\section{Enumerizace hodnot}
+\subsection{Normované enumerizace}
+\subsection{Custom enumerizace}
+\newpage
+\section{Databázová struktura}
+\subsection{ER diagram}
+\subsection{Tabulka XXX}
+\subsubsection{Struktura}
+\subsubsection{Provázání tabulky}
+\subsection{Tabulka XXX}
+\subsubsection{Struktura}
+\subsubsection{Provázání tabulky}
+\subsection{Tabulka XXX}
+\subsubsection{Struktura}
+\subsubsection{Provázání tabulky}
+
+
+\end{document}
